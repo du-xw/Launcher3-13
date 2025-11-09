@@ -57,11 +57,10 @@
         <item name="folderTextColor">@color/workspace_text_color_dark</item>
         <item name="isFolderDarkText">true</item>
         <item name="folderHintColor">@color/folder_hint_text_color_dark</item>
-        <item name="loadingIconColor">#CCFFFFFF</item>
         <item name="iconOnlyShortcutColor">?android:attr/textColorSecondary</item>
         <item name="workProfileOverlayTextColor">#FF212121</item>
         <item name="eduHalfSheetBGColor">?android:attr/colorAccent</item>
-        <item name="disabledIconAlpha">.54</item>
+
         <item name="workspaceAccentColor">@color/workspace_accent_color_light</item>
         <item name="dropTargetHoverTextColor">@color/workspace_text_color_dark</item>
         <item name="overviewScrimColor">@color/overview_scrim</item>
@@ -76,7 +75,7 @@
     </style>
 
     <style name="LauncherTheme.DarkMainColor" parent="@style/LauncherTheme">
-        <item name="disabledIconAlpha">.54</item>
+
 
     </style>
 
@@ -118,7 +117,6 @@
         <item name="isFolderDarkText">false</item>
         <item name="folderHintColor">@color/folder_hint_text_color_light</item>
         <item name="isMainColorDark">true</item>
-        <item name="loadingIconColor">#99FFFFFF</item>
         <item name="iconOnlyShortcutColor">#B3FFFFFF</item>
         <item name="workProfileOverlayTextColor">@android:color/white</item>
         <item name="eduHalfSheetBGColor">#DD000000</item>
@@ -126,7 +124,7 @@
     </style>
 
     <style name="LauncherTheme.Dark.DarkMainColor" parent="@style/LauncherTheme.Dark">
-        <item name="disabledIconAlpha">.54</item>
+
     </style>
 
     <style name="LauncherTheme.Dark.DarkText" parent="@style/LauncherTheme.Dark">
@@ -212,11 +210,11 @@
     </style>
 
     <style name="AllAppsTheme">
-        <item name="disabledIconAlpha">.54</item>
+
     </style>
 
     <style name="AllAppsTheme.Dark">
-        <item name="disabledIconAlpha">.54</item>
+
     </style>
 
     <style name="BaseIconRoot" parent="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle"/>

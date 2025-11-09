@@ -78,11 +78,9 @@
         <item name="android:fontFamily">google-sans-text-medium</item>
     </style>
 
-    <style name="HomeSettings.CollapsingToolbar" parent="@style/Theme.MaterialComponents.DayNight">
+    <style name="HomeSettings.CollapsingToolbar" parent="@style/LauncherTheme">
         <item name="colorAccent">@color/home_settings_header_accent</item>
         <item name="colorPrimary">@color/home_settings_header_expanded</item>
-        <item name="elevationOverlayColor">?attr/colorPrimary</item>
-        <item name="elevationOverlayEnabled">true</item>
     </style>
 
     <style name="HomeSettings.CollapsedToolbarTitle"
